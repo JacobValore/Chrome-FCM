@@ -1,0 +1,4 @@
+Add project
+Project name: Chrome FCM, ID: chrome-fcm-80a04
+Enabled Google Analytics
+Went to Project Settings -> Cloud Messaging -> Sender ID and put it in my background.js
