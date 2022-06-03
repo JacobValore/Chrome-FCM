@@ -3,7 +3,11 @@
 	"description": "Example project for using Firebase Cloud Messaging with Chrome Extensions.",
 	"version": "1.0",
 	"manifest_version": 3,
+	"action": {},
 	"background": {
-		"service_worker": "background.js"
-	}
+		"service_worker": "/background.js"
+	},
+	"permissions": [
+		"gcm"
+	]
 }

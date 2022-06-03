@@ -1,0 +1,24 @@
+{
+  "name": "nodefcmserver",
+  "version": "1.0.0",
+  "description": "A server that can communicate with a chrome extension through FCM.",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobValore/Chrome-FCM.git"
+  },
+  "author": "JacobValore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobValore/Chrome-FCM/issues"
+  },
+  "homepage": "https://github.com/JacobValore/Chrome-FCM#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "firebase-admin": "^10.2.0",
+    "socket.io": "^4.5.1"
+  }
+}

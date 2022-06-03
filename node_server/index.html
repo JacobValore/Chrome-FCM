@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>FCM Example Webpage</title>
+	<meta name="description" content="Example webpage for testing FCM messaging between a NodeJS server and a Chrome Extension.">
+	<meta name="author" content="JacobValore">
+	<script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+	<input id="message" type="text" placeholder="Message">
+	<input id="button" type="submit" value="Send Message" onclick="sendMessage()">
+</body>
+
+<script>
+var socket = io.connect();
+function sendMessage(){
+	console.log(document.getElementById("message").value);
+	socket.emit('send_FCM_message', {msg: document.getElementById("message").value});
+}
+</script>
+</html>
