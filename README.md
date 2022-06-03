@@ -1,6 +1,4 @@
 # Chrome-FCM
-This is a sample project to test out using Firebase Cloud Messaging with a Chrome Extension. The server is made with Node.js and can send commands which spin up the service worker whenever it is needed.
-
 Initial Setup:
 1.	From Firebase dashboard: Add project
 2.	Project name: ChromeFCM
